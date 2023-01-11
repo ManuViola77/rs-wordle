@@ -5,6 +5,12 @@
   min-height: 85vh;
 }
 
+.word-container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
 .word {
   display: flex;
   justify-content: center;

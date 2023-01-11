@@ -40,7 +40,7 @@ const Home = () => {
 
   return (
     <div className="home-container">
-      <div>
+      <div className="word-container">
         {usersAttempts.map((attempt, round) => (
           <div className="word" key={`word-attempt-${round}`}>
             <>
