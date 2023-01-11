@@ -1,0 +1,23 @@
+.skipToMainContent {
+  background-color: var(--color-hunter-green);
+  color: var(--color-white);
+  font-weight: 600;
+  left: -1000px;
+  outline: 2px solid var(--color-white);
+  padding: 15px;
+  position: absolute;
+}
+
+.skipToMainContent:focus {
+  left: 0px;
+}
+
+.skipToMainContent:hover {
+  background-color: var(--color-green);
+  color: var(--color-black);
+}
+
+.skipToMainContent:active {
+  background-color: var(--color-green);
+  color: var(--color-black);
+}

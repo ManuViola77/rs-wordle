@@ -23,7 +23,7 @@ function App() {
       </Helmet>
       <BrowserRouter>
         {authenticated && isRootstrapDomain && <SideNav />}
-        <main>
+        <main id="main">
           <Switch>
             {routes.map(route => (
               <RouteFromPath
